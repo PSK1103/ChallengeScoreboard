@@ -1,0 +1,15 @@
+main: me.PSK1103.ChallengeScoreboard.ChallengeScoreboard
+name: ChallengeScoreboard
+author: PSK1103
+api-version: "1.14"
+version: 1.0.0
+commands:
+  ChallengeScoreboard:
+    description: Displaying scoreboard and managing challenges
+    aliases: [challengescoreboard,challenge,cs]
+    usage: do /cs help for all use cases
+
+permissions:
+  CS.challenge:
+    description: allows user to start a new challenge/end a challenge
+    default: op

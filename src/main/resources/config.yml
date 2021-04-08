@@ -1,0 +1,12 @@
+#sets the interval (in ticks) between each save
+#preferably long (10-15 minutes)
+save-interval: 12000
+
+#sets the interval between system time checks for timed challenges
+#this check only does a simple integer comparison and so can be allowed to happen for shorter intervals (15-30 secs)
+time-check-interval: 600
+
+#sets the formatting codes of winner names
+first-display-code: §6
+second-display-code: §a
+third-display-code: §b
